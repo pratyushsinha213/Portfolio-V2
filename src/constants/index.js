@@ -1,7 +1,7 @@
 import projects1 from "../assets/projects1.jpeg";
-import projects2 from "../assets/projects2.webp";
+import projects2 from "../assets/projects2.jpg";
 import projects3 from "../assets/projects3.jpg";
-// import projects4 from "../assets/projects4.webp";
+import projects4 from "../assets/projects4.webp";
 // import projects5 from "../assets/projects5.webp";
 // import projects6 from "../assets/projects6.webp";
 
@@ -32,34 +32,33 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
     {
-        name: "NomadNav",
-        description: "Travel Itinerary Planner",
+        name: "Desplac Chat",
+        description: "Real Time chatting platform",
         image: projects1,
-        repoLink: "https://github.com/pratyushsinha213/NomadNav-Travel-Itinerary-Planner",
-        demoLink: "https://pratyushsinha213.github.io/NomadNav-Travel-Itinerary-Planner/login.html",
+        repoLink: "https://github.com/pratyushsinha213/desplac-chat",
+        demoLink: "https://desplac-chat.onrender.com/",
     },
     {
-        name: "CommunityCares",
-        description: "NGO Website",
+        name: "Authify Client",
+        description: "Testing user authentication, authorization and security with UI",
         image: projects2,
-        repoLink: "https://github.com/pratyushsinha213/NGo-Website",
-        demoLink: "https://ngo-website-seven.vercel.app/",
+        repoLink: "https://github.com/pratyushsinha213/authify-client",
+        demoLink: "https://authify-client-gsva.onrender.com/",
     },
     {
-        name: "Portfolio",
-        description: "Personal Portfolio Version1",
+        name: "Netflix Clone",
+        description: "Built a netflix clone to mimic the functionalities of the actual site by leveraging an open source Movie/TV Show API and also implementing user authentication and authorization",
         image: projects3,
-        repoLink: "https://github.com/pratyushsinha213/my-react-portfolio",
-        demoLink: "https://pratyushsinha213.github.io/my-react-portfolio/",
+        repoLink: "https://github.com/pratyushsinha213/netflix-clone",
+        demoLink: "https://netflix-clone-gk0s.onrender.com/",
     },
-    // {
-    //     name: "DevDeck",
-    //     description:
-    //         "Interactive dashboard for developers to track coding activity",
-    //     image: projects4,
-    //     repoLink: "https://github.com/pratyushsinha213/NomadNav-Travel-Itinerary-Planner",
-    //     demoLink: "https://pratyushsinha213.github.io/NomadNav-Travel-Itinerary-Planner/login.html",
-    // },
+    {
+        name: "Subsciption API Tracker",
+        description: "An API tracking application that helps users track their subscriptions and payments and helps them make informed decisions about their subscriptions that follows least privileged principles",
+        image: projects4,
+        repoLink: "https://github.com/pratyushsinha213/subscription-tracker-api",
+        demoLink: "",
+    },
     // {
     //     name: "FitConnect",
     //     description: "Fitness social network to connect athletes and trainers",
@@ -86,13 +85,15 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
     {
-        yearRange: "Aug 2024 — Present",
-        title: "Front End Developer at Jurident",
+        yearRange: "May 2024 — November 2024",
+        title: "Backend and Frontend Developer at Jurident",
         location: "Vellore, India",
         description: [
-            "Leading the development of scalable frontend architecture for enterprise-level applications.",
-            "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-            "Driving innovation through continuous improvements in performance and UI/UX design.",
+            "Built and optimized scalable backend APIs, improving system response times by approximately 20% through efficient database query optimization.",
+            "Applied agile methodologies to adapt to evolving project requirements, ensuring 100% on-time delivery of all assigned project milestones.",
+            "Integrated Spline (3D design software) into a personal portfolio, enhancing interactivity and visual engagement, leading to a 30% improvement in user interaction metrics.",
+            "Developed and deployed a web application facilitating the rental and offering of handwritten notes, bridging online listings with offline, in -person exchanges.",
+            "Built and launched a parallax - effect - based web application, delivering smooth animations and dynamic visual user experiences."
         ],
     },
     //   {
